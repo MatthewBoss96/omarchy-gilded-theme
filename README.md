@@ -48,5 +48,5 @@ Omarchy doesn't let a theme installed from git add keybindings, so this is a man
 - `backgrounds/1-gilded-viola.png`: the 3840x1600 wallpaper.
 - `backgrounds/intros/1-gilded-viola.mp4`: a 5 s, 60 fps intro that plays when the theme is selected and fades into the wallpaper.
 - `icons.theme`: sets the Yaru-yellow icon theme.
-- `unlock.png`: the Omarchy logo on the unlock screen, in gold.
+- `unlock.png` and `preview-unlock.png`: the gold Omarchy logo for the boot screen where you unlock your disk, and its preview. Select it with `omarchy plymouth switcher`.
 - `preview.png`: the screenshot the Omarchy theme picker shows.
