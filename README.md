@@ -5,7 +5,7 @@ A dark Omarchy theme in black and gold, with a viola that blooms when you select
 ## Install
 
 ```bash
-omarchy theme install <repo-url>
+omarchy theme install https://github.com/MatthewBoss96/omarchy-gilded-theme.git
 ```
 
 The theme installs as `gilded`. To switch to it later, run `omarchy theme set gilded`.
