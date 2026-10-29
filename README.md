@@ -2,6 +2,12 @@
 
 A dark Omarchy theme in black and gold, with a viola that blooms when you select the theme.
 
+![Gilded on an Omarchy desktop](.github/screenshot.webp)
+
+<p align="center"><img src=".github/bloom.webp" alt="The viola blooming in the intro animation" width="360"></p>
+
+The terminal colours are warm metals: vermilion, champagne, bronze, brass, verdigris, gold and rose-gold. That keeps btop, the editor and everything else in the theme's palette.
+
 ## Install
 
 ```bash
@@ -42,4 +48,5 @@ Omarchy doesn't let a theme installed from git add keybindings, so this is a man
 - `backgrounds/1-gilded-viola.png`: the 3840x1600 wallpaper.
 - `backgrounds/intros/1-gilded-viola.mp4`: a 5 s, 60 fps intro that plays when the theme is selected and fades into the wallpaper.
 - `icons.theme`: sets the Yaru-yellow icon theme.
-- `unlock.png`: the image on the unlock screen.
+- `unlock.png`: the Omarchy logo on the unlock screen, in gold.
+- `preview.png`: the screenshot the Omarchy theme picker shows.
