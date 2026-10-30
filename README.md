@@ -46,7 +46,7 @@ Omarchy doesn't let a theme installed from git add keybindings, so this is a man
 
 - `colors.toml`: the colour palette. Omarchy builds the terminal, editor and app themes from it.
 - `backgrounds/1-gilded-viola.png`: the 3840x1600 wallpaper.
-- `backgrounds/intros/1-gilded-viola.mp4`: a 5 s, 60 fps intro that plays when the theme is selected and fades into the wallpaper.
+- `backgrounds/intros/1-gilded-viola.mp4`: a 6 s, 60 fps intro that plays when the theme is selected, ends in bursts of gold sparkles and fades into the wallpaper.
 - `icons.theme`: sets the Yaru-yellow icon theme.
 - `unlock.png` and `preview-unlock.png`: the gold Omarchy logo for the boot screen where you unlock your disk, and its preview. Select it with `omarchy plymouth switcher`.
 - `preview.png`: the screenshot the Omarchy theme picker shows.
