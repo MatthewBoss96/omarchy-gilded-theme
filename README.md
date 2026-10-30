@@ -6,7 +6,7 @@ A dark Omarchy theme in black and gold, with a viola that blooms when you select
 
 <p align="center"><img src=".github/bloom.webp" alt="The viola blooming in the intro animation" width="360"></p>
 
-The terminal colours are warm metals: vermilion, champagne, bronze, brass, verdigris, gold and rose-gold. That keeps btop, the editor and everything else in the theme's palette.
+The terminal colours are metals: vermilion, champagne, bronze, brass, verdigris, steel and rose-gold, with gold as the accent. That keeps btop, the editor and everything else in the theme's palette.
 
 ## Install
 
