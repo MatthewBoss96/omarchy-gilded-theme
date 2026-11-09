@@ -25,9 +25,17 @@ Omarchy doesn't let a theme installed from git add keybindings, so this is a man
    ```bash
    #!/bin/bash
    # Replay the current background's intro (e.g. the Gilded viola bloom).
+   # Alternate intros named <wallpaper>.<variant>.mp4 take turns on each press.
 
    intro=$(omarchy-theme-bg-boot-intro --resolve-only)
    [[ -n $intro ]] || exit 0
+
+   shopt -s nullglob
+   intros=("$intro" "${intro%.*}".*."${intro##*.}")
+   turn_file=$HOME/.local/state/omarchy-replay-intro.turn
+   turn=$(( ($(cat "$turn_file" 2>/dev/null || echo 0) + 1) % ${#intros[@]} ))
+   echo "$turn" >"$turn_file"
+   intro=${intros[turn]}
 
    # Decode offscreen first, as a theme switch does, so playback starts without a stutter.
    owe intro-prepare "$intro" >/dev/null 2>&1
@@ -40,13 +48,14 @@ Omarchy doesn't let a theme installed from git add keybindings, so this is a man
    o.bind("SUPER + CTRL + ALT + I", "Replay background intro", "/home/<you>/.local/bin/omarchy-replay-intro")
    ```
 
-3. Press `SUPER + CTRL + ALT + I`. The intro replays and settles back on the wallpaper. The script works with any background that has an intro, not only Gilded. On a background without one, the key does nothing.
+3. Press `SUPER + CTRL + ALT + I`. The intro replays and settles back on the wallpaper. With Gilded, each press switches between the bloom and the sparkle intro. The script works with any background that has an intro, not only Gilded. On a background without one, the key does nothing.
 
 ## Contents
 
 - `colors.toml`: the colour palette. Omarchy builds the terminal, editor and app themes from it.
 - `backgrounds/1-gilded-viola.png`: the 3840x1600 wallpaper.
-- `backgrounds/intros/1-gilded-viola.mp4`: a 6 s, 60 fps intro that plays when the theme is selected, ends in bursts of gold sparkles and fades into the wallpaper.
+- `backgrounds/intros/1-gilded-viola.mp4`: the intro, a 5 s, 60 fps bloom that plays when the theme is selected, pulses with a gold glow and fades into the wallpaper.
+- `backgrounds/intros/1-gilded-viola.sparkle.mp4`: an alternate 6 s intro that ends in bursts of gold sparkles. Omarchy doesn't play it by itself; the replay hotkey above takes turns between the two.
 - `icons.theme`: sets the Yaru-yellow icon theme.
 - `unlock.png` and `preview-unlock.png`: the gold Omarchy logo for the boot screen where you unlock your disk, and its preview. Select it with `omarchy plymouth switcher`.
 - `preview.png`: the screenshot the Omarchy theme picker shows.
