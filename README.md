@@ -56,6 +56,8 @@ Omarchy doesn't let a theme installed from git add keybindings, so this is a man
 - `backgrounds/1-gilded-viola.png`: the 3840x1600 wallpaper.
 - `backgrounds/intros/1-gilded-viola.mp4`: the intro, a 5 s, 60 fps bloom that plays when the theme is selected, pulses with a gold glow and fades into the wallpaper.
 - `backgrounds/intros/1-gilded-viola.sparkle.mp4`: an alternate 6 s intro that ends in bursts of gold sparkles. Omarchy doesn't play it by itself; the replay hotkey above takes turns between the two.
+- `backgrounds/2-gilded-ashen-tulips.jpg`: a second 3840x1600 wallpaper, a black viola among gold-edged tulips in an ashen field under a golden sunbeam. Pick it with the background switcher.
+- `backgrounds/intros/2-gilded-ashen-tulips.mp4`: its 5 s, 60 fps intro, where the storm clouds over a bare ashen field part, the beam breaks through and the tulips and the viola grow, ending on the wallpaper.
 - `icons.theme`: sets the Yaru-yellow icon theme.
 - `unlock.png` and `preview-unlock.png`: the gold Omarchy logo for the boot screen where you unlock your disk, and its preview. Select it with `omarchy plymouth switcher`.
 - `preview.png`: the screenshot the Omarchy theme picker shows.
