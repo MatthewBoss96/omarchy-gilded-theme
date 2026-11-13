@@ -4,9 +4,18 @@ A dark Omarchy theme in black and gold. When you select it, an intro plays: a me
 
 ![Gilded on an Omarchy desktop](.github/screenshot.webp)
 
-<p align="center"><img src=".github/bloom.webp" alt="The intro: the meadow burns to ash and a gilded viola grows back" width="360"></p>
+<p align="center"><img src=".github/bloom.webp" alt="The intro: the meadow burns to ash and a gilded viola grows back" width="100%"></p>
 
 The terminal colours are metals: vermilion, champagne, bronze, brass, verdigris, steel and rose-gold, with gold as the accent. That keeps btop, the editor and everything else in the theme's palette.
+
+## Wallpapers
+
+Four 3840x1600 wallpapers, all moments from the intro. The first is the default and plays the intro; pick the others with the background switcher. Click one for the full size.
+
+| | |
+|:---:|:---:|
+| [<img src=".github/wallpapers/1-gilded-golden-viola.webp" alt="A black viola with glowing gold edges under a golden sunbeam">](backgrounds/1-gilded-golden-viola.jpg)<br>**Golden viola** (default, with the intro) | [<img src=".github/wallpapers/2-gilded-viola-meadow.webp" alt="A sunny meadow of purple and yellow violas">](backgrounds/2-gilded-viola-meadow.jpg)<br>**Viola meadow** |
+| [<img src=".github/wallpapers/3-gilded-meteor-blast.webp" alt="A wall of orange fire with debris flying toward the viewer">](backgrounds/3-gilded-meteor-blast.jpg)<br>**Meteor blast** | [<img src=".github/wallpapers/4-gilded-tower-beam.webp" alt="A line of orange light from a distant tower striking the ashen field">](backgrounds/4-gilded-tower-beam.jpg)<br>**Tower beam** |
 
 ## Install
 
